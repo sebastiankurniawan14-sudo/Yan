@@ -1,1 +1,159 @@
 index.html
+
+DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPK SMK Sukamandi</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header   .periode {
+      font-size:14px;
+      opacity: 0.9;
+      margin-top: 5px;
+    }
+    nav {
+      background-color: #2563eb;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1e3a8a;
+    }
+
+    .struktur li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1e3a8a;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MPK SMK SUKAMANDI</h1>
+    <p>Majelis Perwakilan Kelas</p>
+    <div class="periode">Periode 2025 / 2026</div>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#visi">Visi & Misi</a>
+    <a href="#struktur">Struktur</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card" id="tentang">
+      <h2>Tentang MPK</h2>
+      <p>
+        MPK (Majelis Perwakilan Kelas) adalah organisasi sekolah yang
+        berperan sebagai wadah aspirasi siswa serta pengawas kinerja OSIS
+        di SMK Sukamandi.
+      </p>
+    </div>
+
+    <div class="card" id="visi">
+      <h2>Visi & Misi</h2>
+
+      <p><b>Visi:</b></p>
+      <p>
+        Menjadikan MPK sebagai wadah aspirasi siswa yang aktif,
+        peduli, dan bertanggung jawab.
+      </p>
+
+      <p><b>Misi:</b></p>
+      <ol>
+        <li>
+          Membangun semangat kebersamaan antar siswa lewat kegiatan
+          dan komunikasi yang positif.
+        </li>
+        <li>
+          Menjalin kerja sama yang baik dengan OSIS dan pihak sekolah.
+        </li>
+        <li>
+          Mendukung dan mengawasi setiap program OSIS supaya berjalan
+          dengan lancar.
+        </li>
+      </ol>
+    </div>
+
+    <div class="card" id="struktur">
+      <h2>Struktur Organisasi</h2>
+      <ul class="struktur">
+        <li><b>Ketua MPK</b> : Kurniawan Sebastian</li>
+        <li><b>Sekretaris</b> : Adnan Rizki Al' Diansyah</li>
+        <li><b>Bendahara</b> : Miftah Dwi Gumilar</li>
+      </ul>
+    </div>
+
+    <div class="card" id="Media Sosial">
+      <h2>Media Sosial</h2>
+      
+      <p>Instagram: @mpk_sukamandi72</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 MPK SMK Sukamandi</p>
+  </footer>
+
+</body>
+</html>
